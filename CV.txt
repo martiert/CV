@@ -1,0 +1,72 @@
+Martin Ertsås
+martin@ertsas.com
++47 92 21 79 82
+martiert @ github
+Software Developer
+
+SUMMARY
+-------
+
+Technology
+
+  Developer of large, multithreaded systems for collaboration. Mainly working in C++
+  with embedded Linux systems. Coded multiple lower level components to support various
+  architectural changes and making the code more modular.
+
+Collaboration
+
+  Experienced in initiatives to share code across several time zones, and across
+  different work cultures.
+
+Processes
+
+  Passionate about contributor happiness. Both created and changed systems and pipelines
+  to make developers face less obstacles while doing their job.
+
+Learning
+
+  Continuously striving to learn and teach 
+  and soft skills.
+
+
+TECHNOLOGIES
+------------
+
+C++ Programming language (4.5)
+Python programming language (4.0)
+Git (4.0)
+Linux operating system (3.5)
+Bash language (3.5)
+Python asyncio and aiohttp library (3.0)
+Linux userspace development (3.0)
+LaTeX (2.5)
+OpenEmbedded/Yocto Project (2.5)
+
+EMPLOYMENT
+----------
+
+Software Developer, Embedded Android development, Cisco, 2017 - present
+
+Software Developer, Embedded C++ development, Cisco, 2012 - 2017
+
+Software Developer, Windows and OS X development, Cisco, 2011 - 2012
+
+Teaching assistant, Informatics teaching assistant, University of Oslo, 2008 - 2011
+
+Exam grader, Grader in Numerical calculations, University of Oslo, 2010
+
+EDUCATION
+---------
+
+The University of Oslo,  Oslo, Norway (2009 - 2011)
+Master of Science program, Department of Informatics (specialties in physics simulations on GPUs)
+
+The University of Oslo,, Oslo, Norway (2006 - 2009)
+Master of Science program of Department of Mathematics (specialties in informatics)
+
+SERVICE
+-------
+
+Contributor, Kodeklubben.no Arduino assignments, (2015 - present)
+
+Teacher, Lær Kidsa Koding, Oslo, (2015)
