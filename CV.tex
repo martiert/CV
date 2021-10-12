@@ -9,13 +9,23 @@
 \titlespacing*{\subsection}{0pt}{10pt}{2pt}
 \titlespacing*{\subsubsection}{0pt}{10pt}{1pt}
 
+\newcommand\CVEntry[3]{
+  {\bf #1,} #2, {\it #3}
+}
+\newcommand\CVComment[4]{
+  \CVEntry{#1}{#2}{#3}
+
+  #4
+}
+
+
 \begin{document}
 
 \begin{center}
 
 {\large\bf Martin Erts\aa s}\\
 \bigskip
-martin@ertsas.io\\
+martiert@gmail.com\\
 +47 92 21 79 82\\
 martiert @ github\\
 Software Developer\\
@@ -53,6 +63,9 @@ Software Developer\\
     \begin{addmargin}[1em]{0em}
       Continuously striving to learn and understand new technologies, and develop both hard
       and soft skills.
+
+      Also enjoy helping others develop the skills they need, either by doing talks/courses
+      myself, or by using my contacts to get in external experts.
     \end{addmargin}
 
   \end{addmargin}
@@ -65,52 +78,82 @@ Software Developer\\
 
   \begin{itemize}
     \item C++ Programming language
+    \item Python
     \item Git
     \item Bash language
     \item Python asyncio and aiohttp library
-    \item Python programming language
     \item Linux operating system
     \item Linux userspace development
-    \item OpenEmbedded/Yocto Project
   \end{itemize}
 \end{multicols}
 
 \subsection*{EMPLOYMENT}
 
 \begin{addmargin}[2em]{0em}
-  {\bf Software Engineering Manager,} Cisco, {\it 2020 - present}
+  \CVComment{Software Engineering Manager}{Cisco}{2020 - present}{
+    Taken on people management responsibilities for a group of people, both experienced and 
+    unexperienced employees.}
 
-  {\bf Training Responsible,} Responsible for training in Cisco Norway, Cisco, {\it 2019 - present}
+  \CVComment{Training Responsible}{Cisco}{2019 - present}{
+    Responsible for the training program for the Lysaker office, as well as the offices connected to
+    it. Meaning groups in Ireland, London and North Carolina.}
 
-  {\bf Software Developer,} Embedded C++ development, Cisco, {\it 2018 - present}
+  \CVEntry{Embedded C++ Developer}{Cisco}{2018 - present}
 
-  {\bf Software Developer,} Embedded Android development, Cisco, {\it 2017 - 2018}
+  \CVEntry{Embedded Android Developer}{Cisco}{2017 - 2018}
 
-  {\bf Software Developer,} Embedded C++ development, Cisco, {\it 2012 - 2017}
+  \CVEntry{Embedded C++ Developer}{Cisco}{2012 - 2017}
 
-  {\bf Software Developer,} Windows and OS X development, Cisco, {\it 2011 - 2012}
+  \CVEntry{Windows and OS X C/C++ Developer}{Cisco}{2011 - 2012}
 
-  {\bf Teaching assistant,} Informatics teaching assistant, University of Oslo, {\it 2008 - 2011}
+  \CVEntry{Informatics Teaching Assistant}{University of Oslo}{2008 - 2011}
 
-  {\bf Exam grader,} Grader in Numerical calculations, University of Oslo, {\it 2010}
+  \CVEntry{Exam Grader in Numerical Calculations}{University of Oslo}{2010}
+
 \end{addmargin}
+
+\subsection*{COMMITTEE WORK}
+
+\begin{addmargin}[2em]{0em}
+  \CVEntry{Leader of Agenda Committee}{NDC TechTown}{2020 - present}
+
+  \CVComment{Member of Agenda Committee}{NDC TechTown}{2019 - present}{
+    NDC TechTown is a conference held in Kongsberg every year, which focuses on C++
+    and embedded programming. The conference is organized by NDC Conferences. The
+    agenda committee consists of people from the industry is responsible for
+    selecting and getting a hold of speakers, as well as setting up the agenda.}
+
+\end{addmargin}
+
+\subsection*{PUBLIC SPEAKING}
+
+\begin{addmargin}[2em]{0em}
+  \CVEntry{Sandboxing your Linux Application}{NDC TechTown}{2021}
+
+  \CVEntry{Securing Chromium In an Embedded Android Device}{Cisco Internal}{2020}
+
+  \CVEntry{Sandboxing your Linux Application (1 day course)}{Cisco SecCon (Internal Conference)}{2020}
+
+  \CVEntry{Using Android as OS for a single purpose system}{NDC TechTown}{2019}
+\end{addmargin}
+
 
 \subsection*{EDUCATION}
 
 \begin{addmargin}[2em]{0em}
-  {\bf The University of Oslo,}  {\it Oslo, Norway} (2009 - 2011) \\
-  Master of Science program, Department of Informatics (specialties in physics simulations on GPUs)
+  \CVComment{The University of Oslo}{Oslo, Norway}{2009 - 2011}{
+    Master of Science program, Department of Informatics (specialties in physics simulations on GPUs)}
 
-  {\bf The University of Oslo,}, {\it Oslo, Norway} (2006 - 2009) \\
-  Bachelors degree, Department of Mathematics
+  \CVComment{The University of Oslo}{Oslo, Norway}{2006 - 2009}{
+    Bachelors degree, Department of Mathematics}
 \end{addmargin}
 
 \subsection*{SERVICE}
 
 \begin{addmargin}[2em]{0em}
-  {\bf Contributor,} Kodeklubben.no Arduino assignments, (2015 - present)
+  \CVEntry{Contributor, Arduino assignments}{Kodeklubben.no}{2015 - 2017}
 
-  {\bf Teacher,} L\ae r Kidsa Koding, {\it Oslo}, (2015)
+  \CVEntry{Teacher}{L\ae r Kidsa Koding}{2015}
 \end{addmargin}
 
 \end{document}
