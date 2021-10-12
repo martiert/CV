@@ -1,13 +1,9 @@
-.phony: pdf
+all: CV.pdf
 
-pdf: CV.tex
-	pdflatex CV.tex
+%.pdf: %.tex
+	latexmk -output-directory=out -pdf -pdflatex="pdflatex -interaction=nonstopmode" -use-make $<
 
-dvi: CV.tex
-	latex CV.tex
+.PHONY: clean depclean
 
 clean:
-	rm *.aux *.dvi *.log
-
-fullclean: clean
-	rm *.pdf
+	rm -rf out
