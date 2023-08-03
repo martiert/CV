@@ -12,7 +12,12 @@
         pkgs = import nixpkgs { inherit system; };
         CV = pkgs.callPackages ./default.nix {};
       in rec {
-        packages.default = CV.package;
+        packages = {
+          default = CV.package;
+          view = pkgs.writeShellScriptBin "view" ''
+            ${pkgs.epdfview}/bin/epdfview ${packages.default}/CV.pdf
+          '';
+        };
         devShells.default = CV.shell;
       });
 }
